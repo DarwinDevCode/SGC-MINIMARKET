@@ -1,12 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\REPOSITORIO SGC MINIMARKET\\SGC-MINIMARKET\\SGC MINIMARKET\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A76248D3-2DF1-4347-BF13-9A6DD6004130}|SGC MINIMARKET\\PRESENTACION.csproj|c:\\repositorio sgc minimarket\\sgc-minimarket\\sgc minimarket\\sgc minimarket\\seguridad y usuarios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A76248D3-2DF1-4347-BF13-9A6DD6004130}|SGC MINIMARKET\\PRESENTACION.csproj|solutionrelative:sgc minimarket\\seguridad y usuarios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\REPOSITORIO SGC MINIMARKET\\SGC-MINIMARKET\\SGC MINIMARKET\\SGC MINIMARKET\\Seguridad y Usuarios\\frmLogin.cs",
+              "RelativeDocumentMoniker": "SGC MINIMARKET\\Seguridad y Usuarios\\frmLogin.cs",
+              "ToolTip": "C:\\REPOSITORIO SGC MINIMARKET\\SGC-MINIMARKET\\SGC MINIMARKET\\SGC MINIMARKET\\Seguridad y Usuarios\\frmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SGC MINIMARKET\\Seguridad y Usuarios\\frmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T00:04:03.593Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
