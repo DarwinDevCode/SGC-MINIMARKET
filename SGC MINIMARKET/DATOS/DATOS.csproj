@@ -41,7 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clientes y Ventas\Class1.cs" />
+    <Compile Include="Parametros y Configuracion\Class1.cs" />
+    <Compile Include="Productos e Inventario\Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedores y Compras\Class1.cs" />
+    <Compile Include="Reportes y Auditoria\Class1.cs" />
     <Compile Include="Seguridad y Usuarios\csGestionRoles.cs" />
   </ItemGroup>
   <ItemGroup>

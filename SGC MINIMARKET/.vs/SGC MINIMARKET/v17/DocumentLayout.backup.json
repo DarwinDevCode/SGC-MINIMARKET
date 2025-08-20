@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{A76248D3-2DF1-4347-BF13-9A6DD6004130}|SGC MINIMARKET\\PRESENTACION.csproj|solutionrelative:sgc minimarket\\seguridad y usuarios\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61042A82-F398-4A09-B67E-7025272A67A1}|DATOS\\DATOS.csproj|c:\\repositorio sgc minimarket\\sgc-minimarket\\sgc minimarket\\datos\\seguridad y usuarios\\csgestionroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61042A82-F398-4A09-B67E-7025272A67A1}|DATOS\\DATOS.csproj|C:\\REPOSITORIO SGC MINIMARKET\\SGC-MINIMARKET\\SGC MINIMARKET\\datos\\seguridad y usuarios\\csgestionroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61042A82-F398-4A09-B67E-7025272A67A1}|DATOS\\DATOS.csproj|solutionrelative:datos\\seguridad y usuarios\\csgestionroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "DATOS\\Seguridad y Usuarios\\csGestionRoles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T01:10:54.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T01:10:54.588Z"
             }
           ]
         }
