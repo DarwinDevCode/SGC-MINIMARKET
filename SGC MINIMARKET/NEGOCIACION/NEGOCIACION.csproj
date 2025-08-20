@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -54,13 +53,6 @@
       <Name>UTILIDADES</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Clientes y Ventas\" />
-    <Folder Include="Parametros y Configuracion\" />
-    <Folder Include="Productos e Inventario\" />
-    <Folder Include="Proveedores y Compras\" />
-    <Folder Include="Reportes y Auditoria\" />
-    <Folder Include="Seguridad y Usuarios\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
