@@ -1,0 +1,6 @@
+C:\Users\Empresa\Documents\SGC MINIMARKET\UTILIDADES\bin\Debug\UTILIDADES.dll
+C:\Users\Empresa\Documents\SGC MINIMARKET\UTILIDADES\bin\Debug\UTILIDADES.pdb
+C:\Users\Empresa\Documents\SGC MINIMARKET\UTILIDADES\obj\Debug\UTILIDADES.csproj.AssemblyReference.cache
+C:\Users\Empresa\Documents\SGC MINIMARKET\UTILIDADES\obj\Debug\UTILIDADES.csproj.CoreCompileInputs.cache
+C:\Users\Empresa\Documents\SGC MINIMARKET\UTILIDADES\obj\Debug\UTILIDADES.dll
+C:\Users\Empresa\Documents\SGC MINIMARKET\UTILIDADES\obj\Debug\UTILIDADES.pdb

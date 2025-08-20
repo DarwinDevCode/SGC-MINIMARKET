@@ -1,0 +1,9 @@
+C:\Users\Empresa\Documents\SGC MINIMARKET\DATOS\bin\Debug\DATOS.dll
+C:\Users\Empresa\Documents\SGC MINIMARKET\DATOS\bin\Debug\DATOS.pdb
+C:\Users\Empresa\Documents\SGC MINIMARKET\DATOS\bin\Debug\UTILIDADES.dll
+C:\Users\Empresa\Documents\SGC MINIMARKET\DATOS\bin\Debug\UTILIDADES.pdb
+C:\Users\Empresa\Documents\SGC MINIMARKET\DATOS\obj\Debug\DATOS.csproj.AssemblyReference.cache
+C:\Users\Empresa\Documents\SGC MINIMARKET\DATOS\obj\Debug\DATOS.csproj.CoreCompileInputs.cache
+C:\Users\Empresa\Documents\SGC MINIMARKET\DATOS\obj\Debug\DATOS.csproj.Up2Date
+C:\Users\Empresa\Documents\SGC MINIMARKET\DATOS\obj\Debug\DATOS.dll
+C:\Users\Empresa\Documents\SGC MINIMARKET\DATOS\obj\Debug\DATOS.pdb

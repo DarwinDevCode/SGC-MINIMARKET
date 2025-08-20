@@ -1,0 +1,11 @@
+C:\Users\Empresa\Documents\SGC MINIMARKET\NEGOCIACION\bin\Debug\NEGOCIACION.dll
+C:\Users\Empresa\Documents\SGC MINIMARKET\NEGOCIACION\bin\Debug\NEGOCIACION.pdb
+C:\Users\Empresa\Documents\SGC MINIMARKET\NEGOCIACION\bin\Debug\DATOS.dll
+C:\Users\Empresa\Documents\SGC MINIMARKET\NEGOCIACION\bin\Debug\UTILIDADES.dll
+C:\Users\Empresa\Documents\SGC MINIMARKET\NEGOCIACION\bin\Debug\DATOS.pdb
+C:\Users\Empresa\Documents\SGC MINIMARKET\NEGOCIACION\bin\Debug\UTILIDADES.pdb
+C:\Users\Empresa\Documents\SGC MINIMARKET\NEGOCIACION\obj\Debug\NEGOCIACION.csproj.AssemblyReference.cache
+C:\Users\Empresa\Documents\SGC MINIMARKET\NEGOCIACION\obj\Debug\NEGOCIACION.csproj.CoreCompileInputs.cache
+C:\Users\Empresa\Documents\SGC MINIMARKET\NEGOCIACION\obj\Debug\NEGOCIAC.FA1A8483.Up2Date
+C:\Users\Empresa\Documents\SGC MINIMARKET\NEGOCIACION\obj\Debug\NEGOCIACION.dll
+C:\Users\Empresa\Documents\SGC MINIMARKET\NEGOCIACION\obj\Debug\NEGOCIACION.pdb
