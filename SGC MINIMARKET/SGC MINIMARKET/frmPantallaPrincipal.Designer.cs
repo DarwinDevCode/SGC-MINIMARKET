@@ -36,34 +36,34 @@
             this.tmTransicion = new System.Windows.Forms.Timer(this.components);
             this.btnCompras = new System.Windows.Forms.Button();
             this.flpTransacciones = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnTransacciones = new System.Windows.Forms.Button();
             this.btnVentas = new System.Windows.Forms.Button();
             this.tmMenuLateral = new System.Windows.Forms.Timer(this.components);
             this.flpMenuLateral = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnDashboard = new System.Windows.Forms.Button();
             this.flpInventario = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnInventario = new System.Windows.Forms.Button();
             this.btnProductos = new System.Windows.Forms.Button();
             this.btnCategorias = new System.Windows.Forms.Button();
             this.flpPersonas = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnPersonas = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnProveedores = new System.Windows.Forms.Button();
             this.flpAdministracion = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnAdministracion = new System.Windows.Forms.Button();
             this.btnUsuarios = new System.Windows.Forms.Button();
             this.btnRoles = new System.Windows.Forms.Button();
             this.btnParametros = new System.Windows.Forms.Button();
             this.flpReportes = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnReportes = new System.Windows.Forms.Button();
             this.btnVentasFechas = new System.Windows.Forms.Button();
             this.btnComprasProveedor = new System.Windows.Forms.Button();
             this.btnInventarioActual = new System.Windows.Forms.Button();
             this.flpConfiguracion = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnConfiguracion = new System.Windows.Forms.Button();
             this.btnPreferenciasSistema = new System.Windows.Forms.Button();
             this.btnSeguridad = new System.Windows.Forms.Button();
             this.pnlFormularios = new System.Windows.Forms.Panel();
-            this.btnDashboard = new System.Windows.Forms.Button();
-            this.btnTransacciones = new System.Windows.Forms.Button();
-            this.btnInventario = new System.Windows.Forms.Button();
-            this.btnPersonas = new System.Windows.Forms.Button();
-            this.btnAdministracion = new System.Windows.Forms.Button();
-            this.btnReportes = new System.Windows.Forms.Button();
-            this.btnConfiguracion = new System.Windows.Forms.Button();
             this.pnlCabecera.SuspendLayout();
             this.flpTransacciones.SuspendLayout();
             this.flpMenuLateral.SuspendLayout();
@@ -145,6 +145,26 @@
             this.flpTransacciones.Size = new System.Drawing.Size(220, 50);
             this.flpTransacciones.TabIndex = 11;
             // 
+            // btnTransacciones
+            // 
+            this.btnTransacciones.BackColor = System.Drawing.Color.Transparent;
+            this.btnTransacciones.FlatAppearance.BorderSize = 0;
+            this.btnTransacciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTransacciones.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTransacciones.ForeColor = System.Drawing.Color.White;
+            this.btnTransacciones.Image = global::SGC_MINIMARKET.Properties.Resources.iconTransacciones_24px;
+            this.btnTransacciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTransacciones.Location = new System.Drawing.Point(0, 0);
+            this.btnTransacciones.Margin = new System.Windows.Forms.Padding(0);
+            this.btnTransacciones.Name = "btnTransacciones";
+            this.btnTransacciones.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnTransacciones.Size = new System.Drawing.Size(220, 50);
+            this.btnTransacciones.TabIndex = 3;
+            this.btnTransacciones.Text = "          Transacciones";
+            this.btnTransacciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTransacciones.UseVisualStyleBackColor = false;
+            this.btnTransacciones.Click += new System.EventHandler(this.btnTransacciones_Click);
+            // 
             // btnVentas
             // 
             this.btnVentas.BackColor = System.Drawing.Color.Transparent;
@@ -185,6 +205,26 @@
             this.flpMenuLateral.Size = new System.Drawing.Size(220, 540);
             this.flpMenuLateral.TabIndex = 10;
             // 
+            // btnDashboard
+            // 
+            this.btnDashboard.BackColor = System.Drawing.Color.Transparent;
+            this.btnDashboard.FlatAppearance.BorderSize = 0;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboard.ForeColor = System.Drawing.Color.White;
+            this.btnDashboard.Image = global::SGC_MINIMARKET.Properties.Resources.iconDashBoard_24px;
+            this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDashboard.Location = new System.Drawing.Point(0, 0);
+            this.btnDashboard.Margin = new System.Windows.Forms.Padding(0);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnDashboard.Size = new System.Drawing.Size(220, 50);
+            this.btnDashboard.TabIndex = 2;
+            this.btnDashboard.Text = "          Dashboard";
+            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDashboard.UseVisualStyleBackColor = false;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
+            // 
             // flpInventario
             // 
             this.flpInventario.BackColor = System.Drawing.Color.Transparent;
@@ -195,6 +235,26 @@
             this.flpInventario.Name = "flpInventario";
             this.flpInventario.Size = new System.Drawing.Size(220, 50);
             this.flpInventario.TabIndex = 11;
+            // 
+            // btnInventario
+            // 
+            this.btnInventario.BackColor = System.Drawing.Color.Transparent;
+            this.btnInventario.FlatAppearance.BorderSize = 0;
+            this.btnInventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInventario.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInventario.ForeColor = System.Drawing.Color.White;
+            this.btnInventario.Image = global::SGC_MINIMARKET.Properties.Resources.iconInventario_24px;
+            this.btnInventario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInventario.Location = new System.Drawing.Point(0, 0);
+            this.btnInventario.Margin = new System.Windows.Forms.Padding(0);
+            this.btnInventario.Name = "btnInventario";
+            this.btnInventario.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnInventario.Size = new System.Drawing.Size(220, 50);
+            this.btnInventario.TabIndex = 4;
+            this.btnInventario.Text = "          Inventario";
+            this.btnInventario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInventario.UseVisualStyleBackColor = false;
+            this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click);
             // 
             // btnProductos
             // 
@@ -245,6 +305,26 @@
             this.flpPersonas.Size = new System.Drawing.Size(220, 50);
             this.flpPersonas.TabIndex = 11;
             // 
+            // btnPersonas
+            // 
+            this.btnPersonas.BackColor = System.Drawing.Color.Transparent;
+            this.btnPersonas.FlatAppearance.BorderSize = 0;
+            this.btnPersonas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPersonas.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPersonas.ForeColor = System.Drawing.Color.White;
+            this.btnPersonas.Image = global::SGC_MINIMARKET.Properties.Resources.iconPersonas_24px;
+            this.btnPersonas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPersonas.Location = new System.Drawing.Point(0, 0);
+            this.btnPersonas.Margin = new System.Windows.Forms.Padding(0);
+            this.btnPersonas.Name = "btnPersonas";
+            this.btnPersonas.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnPersonas.Size = new System.Drawing.Size(220, 50);
+            this.btnPersonas.TabIndex = 8;
+            this.btnPersonas.Text = "          Personas";
+            this.btnPersonas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPersonas.UseVisualStyleBackColor = false;
+            this.btnPersonas.Click += new System.EventHandler(this.btnPersonas_Click);
+            // 
             // btnClientes
             // 
             this.btnClientes.BackColor = System.Drawing.Color.Transparent;
@@ -294,6 +374,26 @@
             this.flpAdministracion.Name = "flpAdministracion";
             this.flpAdministracion.Size = new System.Drawing.Size(220, 50);
             this.flpAdministracion.TabIndex = 14;
+            // 
+            // btnAdministracion
+            // 
+            this.btnAdministracion.BackColor = System.Drawing.Color.Transparent;
+            this.btnAdministracion.FlatAppearance.BorderSize = 0;
+            this.btnAdministracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdministracion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdministracion.ForeColor = System.Drawing.Color.White;
+            this.btnAdministracion.Image = global::SGC_MINIMARKET.Properties.Resources.iconAdministracion_24px;
+            this.btnAdministracion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdministracion.Location = new System.Drawing.Point(0, 0);
+            this.btnAdministracion.Margin = new System.Windows.Forms.Padding(0);
+            this.btnAdministracion.Name = "btnAdministracion";
+            this.btnAdministracion.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnAdministracion.Size = new System.Drawing.Size(220, 50);
+            this.btnAdministracion.TabIndex = 6;
+            this.btnAdministracion.Text = "          Administración";
+            this.btnAdministracion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdministracion.UseVisualStyleBackColor = false;
+            this.btnAdministracion.Click += new System.EventHandler(this.btnAdministracion_Click);
             // 
             // btnUsuarios
             // 
@@ -364,6 +464,26 @@
             this.flpReportes.Size = new System.Drawing.Size(220, 50);
             this.flpReportes.TabIndex = 15;
             // 
+            // btnReportes
+            // 
+            this.btnReportes.BackColor = System.Drawing.Color.Transparent;
+            this.btnReportes.FlatAppearance.BorderSize = 0;
+            this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReportes.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReportes.ForeColor = System.Drawing.Color.White;
+            this.btnReportes.Image = global::SGC_MINIMARKET.Properties.Resources.iconReportes_24px;
+            this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReportes.Location = new System.Drawing.Point(0, 0);
+            this.btnReportes.Margin = new System.Windows.Forms.Padding(0);
+            this.btnReportes.Name = "btnReportes";
+            this.btnReportes.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnReportes.Size = new System.Drawing.Size(220, 50);
+            this.btnReportes.TabIndex = 5;
+            this.btnReportes.Text = "          Reportes";
+            this.btnReportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReportes.UseVisualStyleBackColor = false;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
+            // 
             // btnVentasFechas
             // 
             this.btnVentasFechas.BackColor = System.Drawing.Color.Transparent;
@@ -432,6 +552,26 @@
             this.flpConfiguracion.Size = new System.Drawing.Size(220, 50);
             this.flpConfiguracion.TabIndex = 16;
             // 
+            // btnConfiguracion
+            // 
+            this.btnConfiguracion.BackColor = System.Drawing.Color.Transparent;
+            this.btnConfiguracion.FlatAppearance.BorderSize = 0;
+            this.btnConfiguracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfiguracion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfiguracion.ForeColor = System.Drawing.Color.White;
+            this.btnConfiguracion.Image = global::SGC_MINIMARKET.Properties.Resources.iconConfiguracion_24px;
+            this.btnConfiguracion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnConfiguracion.Location = new System.Drawing.Point(0, 0);
+            this.btnConfiguracion.Margin = new System.Windows.Forms.Padding(0);
+            this.btnConfiguracion.Name = "btnConfiguracion";
+            this.btnConfiguracion.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnConfiguracion.Size = new System.Drawing.Size(220, 50);
+            this.btnConfiguracion.TabIndex = 9;
+            this.btnConfiguracion.Text = "          Configuracion";
+            this.btnConfiguracion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnConfiguracion.UseVisualStyleBackColor = false;
+            this.btnConfiguracion.Click += new System.EventHandler(this.btnConfiguracion_Click);
+            // 
             // btnPreferenciasSistema
             // 
             this.btnPreferenciasSistema.BackColor = System.Drawing.Color.Transparent;
@@ -478,146 +618,6 @@
             this.pnlFormularios.Name = "pnlFormularios";
             this.pnlFormularios.Size = new System.Drawing.Size(780, 540);
             this.pnlFormularios.TabIndex = 11;
-            // 
-            // btnDashboard
-            // 
-            this.btnDashboard.BackColor = System.Drawing.Color.Transparent;
-            this.btnDashboard.FlatAppearance.BorderSize = 0;
-            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDashboard.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDashboard.ForeColor = System.Drawing.Color.White;
-            this.btnDashboard.Image = global::SGC_MINIMARKET.Properties.Resources.iconDashBoard_24px;
-            this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDashboard.Location = new System.Drawing.Point(0, 0);
-            this.btnDashboard.Margin = new System.Windows.Forms.Padding(0);
-            this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnDashboard.Size = new System.Drawing.Size(220, 50);
-            this.btnDashboard.TabIndex = 2;
-            this.btnDashboard.Text = "          Dashboard";
-            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDashboard.UseVisualStyleBackColor = false;
-            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
-            // 
-            // btnTransacciones
-            // 
-            this.btnTransacciones.BackColor = System.Drawing.Color.Transparent;
-            this.btnTransacciones.FlatAppearance.BorderSize = 0;
-            this.btnTransacciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTransacciones.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTransacciones.ForeColor = System.Drawing.Color.White;
-            this.btnTransacciones.Image = global::SGC_MINIMARKET.Properties.Resources.iconTransacciones_24px;
-            this.btnTransacciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTransacciones.Location = new System.Drawing.Point(0, 0);
-            this.btnTransacciones.Margin = new System.Windows.Forms.Padding(0);
-            this.btnTransacciones.Name = "btnTransacciones";
-            this.btnTransacciones.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnTransacciones.Size = new System.Drawing.Size(220, 50);
-            this.btnTransacciones.TabIndex = 3;
-            this.btnTransacciones.Text = "          Transacciones";
-            this.btnTransacciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTransacciones.UseVisualStyleBackColor = false;
-            this.btnTransacciones.Click += new System.EventHandler(this.btnTransacciones_Click);
-            // 
-            // btnInventario
-            // 
-            this.btnInventario.BackColor = System.Drawing.Color.Transparent;
-            this.btnInventario.FlatAppearance.BorderSize = 0;
-            this.btnInventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInventario.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInventario.ForeColor = System.Drawing.Color.White;
-            this.btnInventario.Image = global::SGC_MINIMARKET.Properties.Resources.iconInventario_24px;
-            this.btnInventario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInventario.Location = new System.Drawing.Point(0, 0);
-            this.btnInventario.Margin = new System.Windows.Forms.Padding(0);
-            this.btnInventario.Name = "btnInventario";
-            this.btnInventario.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnInventario.Size = new System.Drawing.Size(220, 50);
-            this.btnInventario.TabIndex = 4;
-            this.btnInventario.Text = "          Inventario";
-            this.btnInventario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInventario.UseVisualStyleBackColor = false;
-            this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click);
-            // 
-            // btnPersonas
-            // 
-            this.btnPersonas.BackColor = System.Drawing.Color.Transparent;
-            this.btnPersonas.FlatAppearance.BorderSize = 0;
-            this.btnPersonas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPersonas.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPersonas.ForeColor = System.Drawing.Color.White;
-            this.btnPersonas.Image = global::SGC_MINIMARKET.Properties.Resources.iconPersonas_24px;
-            this.btnPersonas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPersonas.Location = new System.Drawing.Point(0, 0);
-            this.btnPersonas.Margin = new System.Windows.Forms.Padding(0);
-            this.btnPersonas.Name = "btnPersonas";
-            this.btnPersonas.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnPersonas.Size = new System.Drawing.Size(220, 50);
-            this.btnPersonas.TabIndex = 8;
-            this.btnPersonas.Text = "          Personas";
-            this.btnPersonas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPersonas.UseVisualStyleBackColor = false;
-            this.btnPersonas.Click += new System.EventHandler(this.btnPersonas_Click);
-            // 
-            // btnAdministracion
-            // 
-            this.btnAdministracion.BackColor = System.Drawing.Color.Transparent;
-            this.btnAdministracion.FlatAppearance.BorderSize = 0;
-            this.btnAdministracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdministracion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdministracion.ForeColor = System.Drawing.Color.White;
-            this.btnAdministracion.Image = global::SGC_MINIMARKET.Properties.Resources.iconAdministracion_24px;
-            this.btnAdministracion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdministracion.Location = new System.Drawing.Point(0, 0);
-            this.btnAdministracion.Margin = new System.Windows.Forms.Padding(0);
-            this.btnAdministracion.Name = "btnAdministracion";
-            this.btnAdministracion.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnAdministracion.Size = new System.Drawing.Size(220, 50);
-            this.btnAdministracion.TabIndex = 6;
-            this.btnAdministracion.Text = "          Administración";
-            this.btnAdministracion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdministracion.UseVisualStyleBackColor = false;
-            this.btnAdministracion.Click += new System.EventHandler(this.btnAdministracion_Click);
-            // 
-            // btnReportes
-            // 
-            this.btnReportes.BackColor = System.Drawing.Color.Transparent;
-            this.btnReportes.FlatAppearance.BorderSize = 0;
-            this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReportes.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReportes.ForeColor = System.Drawing.Color.White;
-            this.btnReportes.Image = global::SGC_MINIMARKET.Properties.Resources.iconReportes_24px;
-            this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReportes.Location = new System.Drawing.Point(0, 0);
-            this.btnReportes.Margin = new System.Windows.Forms.Padding(0);
-            this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnReportes.Size = new System.Drawing.Size(220, 50);
-            this.btnReportes.TabIndex = 5;
-            this.btnReportes.Text = "          Reportes";
-            this.btnReportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReportes.UseVisualStyleBackColor = false;
-            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
-            // 
-            // btnConfiguracion
-            // 
-            this.btnConfiguracion.BackColor = System.Drawing.Color.Transparent;
-            this.btnConfiguracion.FlatAppearance.BorderSize = 0;
-            this.btnConfiguracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfiguracion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfiguracion.ForeColor = System.Drawing.Color.White;
-            this.btnConfiguracion.Image = global::SGC_MINIMARKET.Properties.Resources.iconConfiguracion_24px;
-            this.btnConfiguracion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnConfiguracion.Location = new System.Drawing.Point(0, 0);
-            this.btnConfiguracion.Margin = new System.Windows.Forms.Padding(0);
-            this.btnConfiguracion.Name = "btnConfiguracion";
-            this.btnConfiguracion.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnConfiguracion.Size = new System.Drawing.Size(220, 50);
-            this.btnConfiguracion.TabIndex = 9;
-            this.btnConfiguracion.Text = "          Configuracion";
-            this.btnConfiguracion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnConfiguracion.UseVisualStyleBackColor = false;
-            this.btnConfiguracion.Click += new System.EventHandler(this.btnConfiguracion_Click);
             // 
             // frmPantallaPrincipal
             // 

@@ -23,5 +23,11 @@ namespace SGC_MINIMARKET.Proveedores_y_Compras
         {
             InitializeComponent();
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            frmGestionCompras frm = frmGestionCompras.Formulario();
+            frm.ShowDialog();
+        }
     }
 }

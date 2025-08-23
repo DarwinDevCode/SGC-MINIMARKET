@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.txtBusqueda = new System.Windows.Forms.TextBox();
+            this.txtRol = new System.Windows.Forms.TextBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -52,16 +52,16 @@
             this.btnAgregar.Text = "Guardar";
             this.btnAgregar.UseVisualStyleBackColor = false;
             // 
-            // txtBusqueda
+            // txtRol
             // 
-            this.txtBusqueda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
-            this.txtBusqueda.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBusqueda.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBusqueda.Location = new System.Drawing.Point(30, 100);
-            this.txtBusqueda.Multiline = true;
-            this.txtBusqueda.Name = "txtBusqueda";
-            this.txtBusqueda.Size = new System.Drawing.Size(280, 30);
-            this.txtBusqueda.TabIndex = 19;
+            this.txtRol.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
+            this.txtRol.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtRol.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRol.Location = new System.Drawing.Point(30, 100);
+            this.txtRol.Multiline = true;
+            this.txtRol.Name = "txtRol";
+            this.txtRol.Size = new System.Drawing.Size(280, 30);
+            this.txtRol.TabIndex = 19;
             // 
             // btnCancelar
             // 
@@ -95,7 +95,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnAgregar);
-            this.panel1.Controls.Add(this.txtBusqueda);
+            this.panel1.Controls.Add(this.txtRol);
             this.panel1.Controls.Add(this.btnCancelar);
             this.panel1.Location = new System.Drawing.Point(30, 25);
             this.panel1.Name = "panel1";
@@ -134,7 +134,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.TextBox txtBusqueda;
+        private System.Windows.Forms.TextBox txtRol;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;

@@ -78,6 +78,18 @@
     <Compile Include="Proveedores y Compras\frmCompras.Designer.cs">
       <DependentUpon>frmCompras.cs</DependentUpon>
     </Compile>
+    <Compile Include="Proveedores y Compras\frmGestionCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores y Compras\frmGestionCompras.Designer.cs">
+      <DependentUpon>frmGestionCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedores y Compras\frmGestionDetalleCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores y Compras\frmGestionDetalleCompra.Designer.cs">
+      <DependentUpon>frmGestionDetalleCompra.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reportes y Auditoria\frmExample5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +129,12 @@
     </Compile>
     <EmbeddedResource Include="Proveedores y Compras\frmCompras.resx">
       <DependentUpon>frmCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedores y Compras\frmGestionCompras.resx">
+      <DependentUpon>frmGestionCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedores y Compras\frmGestionDetalleCompra.resx">
+      <DependentUpon>frmGestionDetalleCompra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Seguridad y Usuarios\frmGestionRoles.resx">
       <DependentUpon>frmGestionRoles.cs</DependentUpon>
