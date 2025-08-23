@@ -10,9 +10,16 @@ using System.Windows.Forms;
 
 namespace SGC_MINIMARKET.Proveedores_y_Compras
 {
-    public partial class frmExample4: Form
+    public partial class frmCompras : Form
     {
-        public frmExample4()
+        static private frmCompras instancia = null;
+        public static frmCompras Formulario()
+        {
+            if (instancia == null) { instancia = new frmCompras(); }
+            return instancia;
+        }
+
+        public frmCompras()
         {
             InitializeComponent();
         }

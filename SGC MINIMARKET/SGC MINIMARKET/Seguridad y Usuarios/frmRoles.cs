@@ -7,12 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SGC_MINIMARKET.Proveedores_y_Compras;
 
 namespace SGC_MINIMARKET.Seguridad_y_Usuarios
 {
-    public partial class frmUsuarios : Form
+    public partial class frmRoles : Form
     {
-        public frmUsuarios()
+        static private frmRoles instancia = null;
+        public static frmRoles Formulario()
+        {
+            if (instancia == null) { instancia = new frmRoles(); }
+            return instancia;
+        }
+
+        public frmRoles()
         {
             InitializeComponent();
         }
