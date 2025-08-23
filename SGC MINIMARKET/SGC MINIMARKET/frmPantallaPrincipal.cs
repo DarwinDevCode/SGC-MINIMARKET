@@ -39,22 +39,22 @@ namespace SGC_MINIMARKET.Parametros_y_Configuracion
             switch (bandera)
             {
                 case 1:
-                    DesplegarSubOpciones(flpTransacciones, 120, 40, ref transicionMenu1);
+                    DesplegarSubOpciones(flpTransacciones, 150, 50, ref transicionMenu1);
                     break;
                 case 2:
-                    DesplegarSubOpciones(flpInventario, 120, 40, ref transicionMenu2);
+                    DesplegarSubOpciones(flpInventario, 150, 50, ref transicionMenu2);
                     break;
                 case 3:
-                    DesplegarSubOpciones(flpPersonas, 120, 40, ref transicionMenu3);
+                    DesplegarSubOpciones(flpPersonas, 150, 50, ref transicionMenu3);
                     break;
                 case 4:
-                    DesplegarSubOpciones(flpAdministracion, 160, 40, ref transicionMenu4);
+                    DesplegarSubOpciones(flpAdministracion, 200, 50, ref transicionMenu4);
                     break;
                 case 5:
-                    DesplegarSubOpciones(flpReportes, 160, 40, ref transicionMenu5);
+                    DesplegarSubOpciones(flpReportes, 200, 50, ref transicionMenu5);
                     break;
                 case 6:
-                    DesplegarSubOpciones(flpConfiguracion, 120, 40, ref transicionMenu6);
+                    DesplegarSubOpciones(flpConfiguracion, 150, 50, ref transicionMenu6);
                     break;
             }
         }
@@ -87,7 +87,7 @@ namespace SGC_MINIMARKET.Parametros_y_Configuracion
             if (ExpansionMenuLateral)
             {
                 flpMenuLateral.Width -= 10;
-                if (flpMenuLateral.Width <= 47)
+                if (flpMenuLateral.Width <= 64)
                 {
                     ExpansionMenuLateral = false;
                     tmMenuLateral.Stop();
@@ -96,7 +96,7 @@ namespace SGC_MINIMARKET.Parametros_y_Configuracion
             else 
             {
                 flpMenuLateral.Width += 10;
-                if(flpMenuLateral.Width >= 200)
+                if(flpMenuLateral.Width >= 220)
                 {
                     ExpansionMenuLateral = true;
                     tmMenuLateral.Stop();

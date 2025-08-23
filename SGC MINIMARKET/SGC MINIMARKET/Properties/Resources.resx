@@ -130,14 +130,17 @@
   <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="iconMenu_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconMenu_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bolsa-de-la-compra" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bolsa-de-la-compra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="engranaje" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\engranaje.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconDashBoard_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconDashBoard_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="perfil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perfil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconProveedores_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconProveedores_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,17 +154,11 @@
   <data name="panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Plantilla panel principal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Plantilla panel principal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="iconCompras_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconCompras_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="inventario" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\inventario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="perfil" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\perfil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="carrito-de-compras" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\carrito-de-compras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -171,6 +168,9 @@
   </data>
   <data name="iconMenu_16px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconMenu_16px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconDashBoard_16px01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconDashBoard_16px01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,8 +187,11 @@
   <data name="iconVentas_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconVentas_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconDashBoard_16px01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconDashBoard_16px01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Plantilla panel principal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plantilla panel principal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconDashBoard_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconDashBoard_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconConfiguracion_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconConfiguracion_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,8 +202,8 @@
   <data name="reporte-de-negocios" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\reporte-de-negocios.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Plantilla panel principal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Plantilla panel principal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Plantilla panel principal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plantilla panel principal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconLupa_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconLupa_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,7 +211,34 @@
   <data name="iconInventario_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconInventario_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconMenu_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconMenu_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconTransacciones_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconTransacciones_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconReportes_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconReportes_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconProveedores_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconProveedores_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconPersonas_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconPersonas_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconMenu_24px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconMenu_24px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconInventario_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconInventario_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconDashBoard_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconDashBoard_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconConfiguracion_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconConfiguracion_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconClientes_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconClientes_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconAdministracion_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconAdministracion_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

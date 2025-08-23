@@ -84,6 +84,12 @@
     <Compile Include="Reportes y Auditoria\frmExample5.Designer.cs">
       <DependentUpon>frmExample5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Seguridad y Usuarios\frmGestionRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad y Usuarios\frmGestionRoles.Designer.cs">
+      <DependentUpon>frmGestionRoles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Seguridad y Usuarios\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </Compile>
     <EmbeddedResource Include="Proveedores y Compras\frmCompras.resx">
       <DependentUpon>frmCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad y Usuarios\frmGestionRoles.resx">
+      <DependentUpon>frmGestionRoles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Seguridad y Usuarios\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
@@ -233,6 +242,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\iconMenu_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconTransacciones_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconReportes_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconProveedores_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconPersonas_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconMenu_24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconInventario_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconDashBoard_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconConfiguracion_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconClientes_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconAdministracion_24px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

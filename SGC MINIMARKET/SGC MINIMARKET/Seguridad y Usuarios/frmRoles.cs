@@ -24,5 +24,21 @@ namespace SGC_MINIMARKET.Seguridad_y_Usuarios
         {
             InitializeComponent();
         }
+
+        private void frmRoles_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            frmGestionRoles frm = frmGestionRoles.Formulario();
+            frm.ShowDialog();
+        }
+
+        private void txtBusqueda_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
