@@ -31,7 +31,7 @@ namespace SGC_MINIMARKET.Seguridad_y_Usuarios
 
         private void frmRoles_Load(object sender, EventArgs e)
         {
-            AjustarDgv();
+            
         }
 
         public void AjustarDgv()
