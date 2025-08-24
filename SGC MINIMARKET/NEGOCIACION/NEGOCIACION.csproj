@@ -48,6 +48,7 @@
     <Compile Include="Proveedores y Compras\Class1.cs" />
     <Compile Include="Reportes y Auditoria\Class1.cs" />
     <Compile Include="Seguridad y Usuarios\Class1.cs" />
+    <Compile Include="Seguridad y Usuarios\csGestionRolesN.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DATOS\DATOS.csproj">
