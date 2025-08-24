@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace SGC_MINIMARKET.Clientes_y_Ventas
 {
-    public partial class FrmVentas: Form
+    public partial class frmExample1: Form
     {
-        public FrmVentas()
+        public frmExample1()
         {
             InitializeComponent();
-        }
-
-        private void label20_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
