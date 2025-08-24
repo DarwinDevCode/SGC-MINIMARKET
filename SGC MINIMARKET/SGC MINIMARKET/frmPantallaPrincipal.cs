@@ -189,6 +189,7 @@ namespace SGC_MINIMARKET.Parametros_y_Configuracion
         private void btnRoles_Click(object sender, EventArgs e)
         {
             frmRoles frm = frmRoles.Formulario();
+            frm.AjustarDgv();
             LlamarFormulario(frm);
         }
 

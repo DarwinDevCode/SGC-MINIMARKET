@@ -51,6 +51,7 @@
             this.btnAgregar.TabIndex = 20;
             this.btnAgregar.Text = "Guardar";
             this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // txtRol
             // 
