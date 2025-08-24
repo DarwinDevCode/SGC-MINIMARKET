@@ -52,6 +52,7 @@
     <Compile Include="Clientes y Ventas\frmExample1.Designer.cs">
       <DependentUpon>frmExample1.cs</DependentUpon>
     </Compile>
+    <Compile Include="csUsosGenerales.cs" />
     <Compile Include="frmPantallaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>

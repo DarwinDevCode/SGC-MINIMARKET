@@ -8,12 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using SGC_MINIMARKET.Proveedores_y_Compras;
+using NEGOCIACION.Seguridad_y_Usuarios;
 
 namespace SGC_MINIMARKET.Seguridad_y_Usuarios
 {
     public partial class frmRoles : Form
     {
         static private frmRoles instancia = null;
+        csUsosGenerales clase_uso_generales = new csUsosGenerales();
+        csGestionRolesN clase_gestion_roles = new csGestionRolesN();
+
         public static frmRoles Formulario()
         {
             if (instancia == null) { instancia = new frmRoles(); }
@@ -27,7 +31,12 @@ namespace SGC_MINIMARKET.Seguridad_y_Usuarios
 
         private void frmRoles_Load(object sender, EventArgs e)
         {
+            AjustarDgv();
+        }
 
+        public void AjustarDgv()
+        {
+            clase_uso_generales.AjustarTabla(dgvRoles, clase_gestion_roles.ObtenerRoles().Item1);
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
