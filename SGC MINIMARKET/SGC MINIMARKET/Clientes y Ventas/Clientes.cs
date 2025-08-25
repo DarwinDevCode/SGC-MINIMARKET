@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SGC_MINIMARKET.Clientes_y_Ventas
 {
-    public partial class frmExample1: Form
+    public partial class Clientes: Form
     {
-        public frmExample1()
+        public Clientes()
         {
             InitializeComponent();
         }

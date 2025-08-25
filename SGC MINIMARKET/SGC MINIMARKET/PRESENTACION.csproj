@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clientes y Ventas\frmExample1.cs">
+    <Compile Include="Clientes y Ventas\Clientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Clientes y Ventas\frmExample1.Designer.cs">
-      <DependentUpon>frmExample1.cs</DependentUpon>
+    <Compile Include="Clientes y Ventas\Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes y Ventas\Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes y Ventas\Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
     </Compile>
     <Compile Include="csUsosGenerales.cs" />
     <Compile Include="frmPantallaPrincipal.cs">
@@ -115,6 +121,12 @@
     <Compile Include="Seguridad y Usuarios\frmRoles.Designer.cs">
       <DependentUpon>frmRoles.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Clientes y Ventas\Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes y Ventas\Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPantallaPrincipal.resx">
       <DependentUpon>frmPantallaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
