@@ -43,7 +43,8 @@ namespace SGC_MINIMARKET.Seguridad_y_Usuarios
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            frm.ShowDialog();
+            frmGestionRoles frm1 = frmGestionRoles.Formulario();
+            frm1.ShowDialog();
         }
 
         private void txtBusqueda_TextChanged(object sender, EventArgs e)

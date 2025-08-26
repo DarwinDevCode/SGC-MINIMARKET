@@ -77,3 +77,5 @@ C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINI
 C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC MINIMARKET.pdb
 C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Parametros_y_Configuracion.frmParametros.resources
 C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Parametros_y_Configuracion.frmGestionParametros.resources
+C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Parametros_y_Configuracion.frmGestionParametros.resources
+C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Parametros_y_Configuracion.frmParametros.resources
