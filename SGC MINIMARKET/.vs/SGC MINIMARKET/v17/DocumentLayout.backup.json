@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\REPOSITORIO SGC MINIMARKET\\SGC-MINIMARKET\\SGC MINIMARKET\\",
+  "WorkspaceRootPath": "C:\\Users\\fingm\\OneDrive\\Documentos\\GitHub\\SGC-MINIMARKET\\SGC MINIMARKET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A76248D3-2DF1-4347-BF13-9A6DD6004130}|SGC MINIMARKET\\PRESENTACION.csproj|c:\\repositorio sgc minimarket\\sgc-minimarket\\sgc minimarket\\sgc minimarket\\proveedores y compras\\frmgestiondetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A76248D3-2DF1-4347-BF13-9A6DD6004130}|SGC MINIMARKET\\PRESENTACION.csproj|solutionrelative:sgc minimarket\\proveedores y compras\\frmgestiondetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61042A82-F398-4A09-B67E-7025272A67A1}|DATOS\\DATOS.csproj|c:\\users\\fingm\\onedrive\\documentos\\github\\sgc-minimarket\\sgc minimarket\\datos\\csconexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61042A82-F398-4A09-B67E-7025272A67A1}|DATOS\\DATOS.csproj|solutionrelative:datos\\csconexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +14,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmGestionDetalleCompra.cs",
-              "DocumentMoniker": "C:\\REPOSITORIO SGC MINIMARKET\\SGC-MINIMARKET\\SGC MINIMARKET\\SGC MINIMARKET\\Proveedores y Compras\\frmGestionDetalleCompra.cs",
-              "RelativeDocumentMoniker": "SGC MINIMARKET\\Proveedores y Compras\\frmGestionDetalleCompra.cs",
-              "ToolTip": "C:\\REPOSITORIO SGC MINIMARKET\\SGC-MINIMARKET\\SGC MINIMARKET\\SGC MINIMARKET\\Proveedores y Compras\\frmGestionDetalleCompra.cs",
-              "RelativeToolTip": "SGC MINIMARKET\\Proveedores y Compras\\frmGestionDetalleCompra.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCYAAAAAAAAAAAAAAA==",
+              "Title": "csConexionBD.cs",
+              "DocumentMoniker": "C:\\Users\\fingm\\OneDrive\\Documentos\\GitHub\\SGC-MINIMARKET\\SGC MINIMARKET\\DATOS\\csConexionBD.cs",
+              "RelativeDocumentMoniker": "DATOS\\csConexionBD.cs",
+              "ToolTip": "C:\\Users\\fingm\\OneDrive\\Documentos\\GitHub\\SGC-MINIMARKET\\SGC MINIMARKET\\DATOS\\csConexionBD.cs",
+              "RelativeToolTip": "DATOS\\csConexionBD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T06:48:26.807Z",
+              "WhenOpened": "2025-08-26T03:05:56.45Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 94,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 94,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

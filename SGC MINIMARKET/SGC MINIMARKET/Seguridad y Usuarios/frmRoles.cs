@@ -14,10 +14,11 @@ namespace SGC_MINIMARKET.Seguridad_y_Usuarios
 {
     public partial class frmRoles : Form
     {
-        static private frmRoles instancia = null;
         csUsosGenerales clase_uso_generales = new csUsosGenerales();
         csGestionRolesN clase_gestion_roles = new csGestionRolesN();
         static frmGestionRoles frm = frmGestionRoles.Formulario();
+
+        static private frmRoles instancia = null;
 
         public static frmRoles Formulario()
         {

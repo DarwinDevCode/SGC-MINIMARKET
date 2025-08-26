@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -65,6 +65,18 @@
     <Compile Include="Parametros y Configuracion\frmExample2.Designer.cs">
       <DependentUpon>frmExample2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Parametros y Configuracion\frmGestionParametros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros y Configuracion\frmGestionParametros.Designer.cs">
+      <DependentUpon>frmGestionParametros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros y Configuracion\frmParametros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros y Configuracion\frmParametros.Designer.cs">
+      <DependentUpon>frmParametros.cs</DependentUpon>
+    </Compile>
     <Compile Include="Productos e Inventario\frmExample3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +129,12 @@
     </Compile>
     <EmbeddedResource Include="frmPantallaPrincipal.resx">
       <DependentUpon>frmPantallaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros y Configuracion\frmGestionParametros.resx">
+      <DependentUpon>frmGestionParametros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros y Configuracion\frmParametros.resx">
+      <DependentUpon>frmParametros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
