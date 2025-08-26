@@ -17,7 +17,7 @@ namespace SGC_MINIMARKET.Proveedores_y_Compras
         csUsosGenerales clase_usos_generales = new csUsosGenerales();
         csComprasProveedoresN clase_compras_proveedores = new csComprasProveedoresN();
         static private frmGestionCompras instancia = null;
-        public List<(int id, string nombre)> productos = new List<(int, string)>();
+        int idCompra; bool resultado1, resultado2 = false;
 
         public static frmGestionCompras Formulario()
         {
@@ -48,6 +48,37 @@ namespace SGC_MINIMARKET.Proveedores_y_Compras
         private void frmGestionCompras_Load(object sender, EventArgs e)
         {
             CargarCombobox();
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            frmGestionDetalleCompra frm = frmGestionDetalleCompra.Formulario();
+            frmCompras frm1 = frmCompras.Formulario();
+
+            if(cbxProveedor.SelectedIndex!= -1 && rtbProductos.Text != string.Empty && txtTotal.Text != string.Empty)
+            {
+                (resultado1, idCompra) = clase_compras_proveedores.InsertarCompra((int)cbxProveedor.SelectedValue, DateTime.Now, Convert.ToDecimal(txtTotal.Text));
+                if (resultado1)
+                {
+                    foreach (var item in frm.productos)
+                        resultado2 = clase_compras_proveedores.InsertarDetalleCompra(idCompra, item.id, item.cantidad, item.precio_unitario);
+                    if (resultado2)
+                    {
+                        MessageBox.Show("Compra realizada correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        LimpiarControles();
+                        frm1.AjustarDgv();
+                    }
+
+                }
+            }
+        }
+
+        public void LimpiarControles()
+        {
+            cbxProveedor.SelectedIndex = -1;
+            rtbProductos.Text = string.Empty;
+            txtFecha.Text = string.Empty;
+            txtTotal.Text = string.Empty;
         }
     }
 }
