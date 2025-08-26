@@ -12,7 +12,7 @@ namespace NEGOCIACION.Proveedores_y_Compras
     public class csComprasProveedoresN
     {
         csComprasProveedores clase_compras_proveedores = new csComprasProveedores();
-        public bool InsertarCompra(int idProveedor, DateTime fecha, decimal total)
+        public (bool, int) InsertarCompra(int idProveedor, DateTime fecha, decimal total)
         {
             return clase_compras_proveedores.InsertarCompra(idProveedor, fecha, total);
         }

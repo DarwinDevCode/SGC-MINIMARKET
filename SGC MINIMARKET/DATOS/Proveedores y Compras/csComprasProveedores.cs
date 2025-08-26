@@ -10,10 +10,11 @@ namespace DATOS.Proveedores_y_Compras
 {
     public class csComprasProveedores
     {
-        public bool InsertarCompra(int idProveedor, DateTime fecha, decimal total)
+        public (bool, int) InsertarCompra(int idProveedor, DateTime fecha, decimal total)
         {
             csConexionBD conexionBD = new csConexionBD();
             bool resultado = false;
+            int idCompra = 0;
 
             using (SqlConnection conexion = conexionBD.CrearConexion())
             {
@@ -29,14 +30,23 @@ namespace DATOS.Proveedores_y_Compras
                         comando.Parameters.AddWithValue("@FECHA", fecha);
                         comando.Parameters.AddWithValue("@TOTAL", total);
 
-                        SqlParameter resultadoParam = new SqlParameter("@Resultado", SqlDbType.Bit)
+                        SqlParameter paramResultado = new SqlParameter("@Resultado", SqlDbType.Bit)
                         {
                             Direction = ParameterDirection.Output
                         };
-                        
-                        comando.Parameters.Add(resultadoParam);
+
+                        SqlParameter paramIdFinal = new SqlParameter("@IdFinal", SqlDbType.Int)
+                        {
+                            Direction = ParameterDirection.Output
+                        };
+
+                        comando.Parameters.Add(paramResultado);
+                        comando.Parameters.Add(paramIdFinal);
+
                         comando.ExecuteNonQuery();
-                        resultado = Convert.ToBoolean(resultadoParam.Value);
+
+                        resultado = Convert.ToBoolean(paramResultado.Value);
+                        idCompra = Convert.ToInt32(paramIdFinal.Value);
                     }
                 }
                 catch (SqlException ex)
@@ -44,7 +54,8 @@ namespace DATOS.Proveedores_y_Compras
                     throw new Exception("Error al insertar la compra: " + ex.Message, ex);
                 }
             }
-            return resultado;
+
+            return (resultado, idCompra);
         }
 
         public (DataTable, bool) ListarCompras()
@@ -225,7 +236,6 @@ namespace DATOS.Proveedores_y_Compras
                             Direction = ParameterDirection.Output
                         };
                         cmd.Parameters.Add(paramResultado);
-
                         conexion.Open();
                         cmd.ExecuteNonQuery();
                         resultado = Convert.ToBoolean(paramResultado.Value);
@@ -239,6 +249,7 @@ namespace DATOS.Proveedores_y_Compras
 
             return resultado;
         }
+
 
     }
 }

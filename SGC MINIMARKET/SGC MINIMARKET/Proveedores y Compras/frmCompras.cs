@@ -36,6 +36,7 @@ namespace SGC_MINIMARKET.Proveedores_y_Compras
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             frmGestionCompras frm = frmGestionCompras.Formulario();
+            frm.txtFecha.Text = DateTime.Now.ToString();
             frm.ShowDialog();
         }
 

@@ -49,7 +49,7 @@ namespace SGC_MINIMARKET
                 {
                     if (col.ColumnName == "ID_PRODUCTO" && id.ToString() == row[col].ToString())
                     {
-                        result = row["PRECIO_VENTA"].ToString();
+                        result = row["PRECIO_COMPRA"].ToString();
                         break;
                     }
                 }

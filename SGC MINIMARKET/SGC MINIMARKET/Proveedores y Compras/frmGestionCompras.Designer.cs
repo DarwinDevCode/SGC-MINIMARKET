@@ -103,6 +103,7 @@
             this.btnAgregar.TabIndex = 35;
             this.btnAgregar.Text = "Guardar";
             this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnCancelar
             // 
@@ -183,6 +184,7 @@
             this.txtFecha.Location = new System.Drawing.Point(50, 260);
             this.txtFecha.Multiline = true;
             this.txtFecha.Name = "txtFecha";
+            this.txtFecha.ReadOnly = true;
             this.txtFecha.Size = new System.Drawing.Size(280, 30);
             this.txtFecha.TabIndex = 28;
             // 
@@ -233,14 +235,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cbxProveedor;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtFecha;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnAgregarProductos;
         public System.Windows.Forms.RichTextBox rtbProductos;
+        public System.Windows.Forms.TextBox txtTotal;
+        public System.Windows.Forms.TextBox txtFecha;
     }
 }

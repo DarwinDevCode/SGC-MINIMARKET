@@ -16,7 +16,7 @@ namespace SGC_MINIMARKET.Proveedores_y_Compras
         static private frmGestionDetalleCompra instancia = null;
         csComprasProveedoresN clase_compras_proveedores = new csComprasProveedoresN();
         csUsosGenerales clase_usos_generales = new csUsosGenerales();
-        public List<(int id, string nombre, decimal precio_unitario)> productos = new List<(int, string, decimal)>();
+        public List<(int id, string nombre, decimal precio_unitario, int cantidad)> productos = new List<(int, string, decimal, int)>();
         public DataTable dt_productos = new DataTable();
 
         public static frmGestionDetalleCompra Formulario()
@@ -24,6 +24,7 @@ namespace SGC_MINIMARKET.Proveedores_y_Compras
             if (instancia == null) { instancia = new frmGestionDetalleCompra(); }
             return instancia;
         } 
+
         public frmGestionDetalleCompra()
         {
             InitializeComponent();
@@ -32,12 +33,17 @@ namespace SGC_MINIMARKET.Proveedores_y_Compras
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             frmGestionCompras frm = frmGestionCompras.Formulario();
-
-            string result = "";
+            decimal total = 0, subtotal = 0;  string result = "";
+            
             foreach (var item in productos)
-                result += item.id + ", " + item.nombre + ", " + item.precio_unitario +'\n';
+            {
+                result += item.cantidad + ", " + item.nombre + ", " + "$" + item.precio_unitario + '\n';
+                subtotal = item.cantidad * item.precio_unitario;
+                total += subtotal;
+            }
 
             frm.rtbProductos.Text = result;
+            frm.txtTotal.Text = total.ToString();
             this.Hide();
         }
 
@@ -46,7 +52,7 @@ namespace SGC_MINIMARKET.Proveedores_y_Compras
             frmGestionCompras frm = frmGestionCompras.Formulario();
             if(cbxProductos.SelectedIndex!= -1 && txtCantidad.Text != string.Empty && txtPrecioUnitario.Text != string.Empty)
             {
-                productos.Add(((int)cbxProductos.SelectedValue, cbxProductos.Text, Convert.ToDecimal(txtPrecioUnitario.Text)));
+                productos.Add(((int)cbxProductos.SelectedValue, cbxProductos.Text, Convert.ToDecimal(txtPrecioUnitario.Text), Convert.ToInt32(txtCantidad.Text)));
                 LimpiarControles();    
             }
 
