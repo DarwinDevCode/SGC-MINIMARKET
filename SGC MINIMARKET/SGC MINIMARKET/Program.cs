@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using SGC_MINIMARKET.Seguridad_y_Usuarios;
+using SGC_MINIMARKET.Parametros_y_Configuracion;
+
+
+
 
 namespace SGC_MINIMARKET
 {
@@ -17,7 +20,7 @@ namespace SGC_MINIMARKET
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLogin());
+            Application.Run(new frmPantallaPrincipal());
         }
     }
 }

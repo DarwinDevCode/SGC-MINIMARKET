@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SGC_MINIMARKET.Seguridad_y_Usuarios
+namespace SGC_MINIMARKET.Parametros_y_Configuracion
 {
-    public partial class frmUsuarios : Form
+    public partial class frmExample2: Form
     {
-        public frmUsuarios()
+        public frmExample2()
         {
             InitializeComponent();
         }

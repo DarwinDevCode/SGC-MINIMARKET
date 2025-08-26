@@ -16,3 +16,12 @@ C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATO
 C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.csproj.Up2Date
 C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.dll
 C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.pdb
+C:\Users\user\Downloads\Repositorio Minimarket\SGC-MINIMARKET\SGC MINIMARKET\DATOS\bin\Debug\DATOS.dll
+C:\Users\user\Downloads\Repositorio Minimarket\SGC-MINIMARKET\SGC MINIMARKET\DATOS\bin\Debug\DATOS.pdb
+C:\Users\user\Downloads\Repositorio Minimarket\SGC-MINIMARKET\SGC MINIMARKET\DATOS\bin\Debug\UTILIDADES.dll
+C:\Users\user\Downloads\Repositorio Minimarket\SGC-MINIMARKET\SGC MINIMARKET\DATOS\bin\Debug\UTILIDADES.pdb
+C:\Users\user\Downloads\Repositorio Minimarket\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\Repositorio Minimarket\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\Repositorio Minimarket\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.csproj.Up2Date
+C:\Users\user\Downloads\Repositorio Minimarket\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.dll
+C:\Users\user\Downloads\Repositorio Minimarket\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.pdb

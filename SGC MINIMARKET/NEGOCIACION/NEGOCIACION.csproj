@@ -46,8 +46,10 @@
     <Compile Include="Productos e Inventario\Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proveedores y Compras\Class1.cs" />
+    <Compile Include="Proveedores y Compras\csComprasProveedoresN.cs" />
     <Compile Include="Reportes y Auditoria\Class1.cs" />
     <Compile Include="Seguridad y Usuarios\Class1.cs" />
+    <Compile Include="Seguridad y Usuarios\csGestionRolesN.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DATOS\DATOS.csproj">
