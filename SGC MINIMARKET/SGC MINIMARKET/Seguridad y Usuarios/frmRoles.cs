@@ -17,6 +17,7 @@ namespace SGC_MINIMARKET.Seguridad_y_Usuarios
         static private frmRoles instancia = null;
         csUsosGenerales clase_uso_generales = new csUsosGenerales();
         csGestionRolesN clase_gestion_roles = new csGestionRolesN();
+        static frmGestionRoles frm = frmGestionRoles.Formulario();
 
         public static frmRoles Formulario()
         {
@@ -41,12 +42,26 @@ namespace SGC_MINIMARKET.Seguridad_y_Usuarios
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            frmGestionRoles frm = frmGestionRoles.Formulario();
             frm.ShowDialog();
         }
 
         private void txtBusqueda_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void dgvRoles_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int f = e.RowIndex;
+
+            if (f >= 0) 
+            {
+                frm.ID = (int)dgvRoles.Rows[f].Cells[0].Value;
+                frm.bandera = true;
+                frm.txtRol.Text = dgvRoles.Rows[f].Cells[1].Value.ToString();
+                frm.ShowDialog();
+            }
+
 
         }
     }
