@@ -25,3 +25,12 @@ C:\Users\user\Downloads\Repositorio Minimarket\SGC-MINIMARKET\SGC MINIMARKET\DAT
 C:\Users\user\Downloads\Repositorio Minimarket\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.csproj.Up2Date
 C:\Users\user\Downloads\Repositorio Minimarket\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.dll
 C:\Users\user\Downloads\Repositorio Minimarket\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.pdb
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\DATOS\bin\Debug\DATOS.dll
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\DATOS\bin\Debug\DATOS.pdb
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\DATOS\bin\Debug\UTILIDADES.dll
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\DATOS\bin\Debug\UTILIDADES.pdb
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.csproj.AssemblyReference.cache
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.csproj.CoreCompileInputs.cache
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.csproj.Up2Date
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.dll
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\DATOS\obj\Debug\DATOS.pdb

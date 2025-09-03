@@ -52,3 +52,34 @@ C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\D
 C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Proveedores_y_Compras.frmGestionDetalleCompra.resources
 C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\bin\Debug\DATOS.dll
 C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\bin\Debug\DATOS.pdb
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\bin\Debug\SGC MINIMARKET.exe.config
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\bin\Debug\SGC MINIMARKET.exe
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\bin\Debug\SGC MINIMARKET.pdb
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\bin\Debug\NEGOCIACION.dll
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\bin\Debug\UTILIDADES.dll
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\bin\Debug\DATOS.dll
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\bin\Debug\NEGOCIACION.pdb
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\bin\Debug\UTILIDADES.pdb
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\bin\Debug\DATOS.pdb
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\PRESENTACION.csproj.AssemblyReference.cache
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Parametros_y_Configuracion.frmPantallaPrincipal.resources
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Properties.Resources.resources
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Proveedores_y_Compras.frmCompras.resources
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Proveedores_y_Compras.frmGestionCompras.resources
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Proveedores_y_Compras.frmGestionDetalleCompra.resources
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Seguridad_y_Usuarios.frmGestionRoles.resources
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Seguridad_y_Usuarios.frmLogin.resources
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Seguridad_y_Usuarios.frmRoles.resources
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\PRESENTACION.csproj.GenerateResource.cache
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\PRESENTACION.csproj.CoreCompileInputs.cache
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\PRESENTA.B379FE65.Up2Date
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC MINIMARKET.exe
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC MINIMARKET.pdb
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Parametros_y_Configuracion.frmParametros.resources
+C:\Users\fingm\OneDrive\Documentos\GitHub\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Parametros_y_Configuracion.frmGestionParametros.resources
+C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Parametros_y_Configuracion.frmGestionParametros.resources
+C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Parametros_y_Configuracion.frmParametros.resources
+C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Productos_e_Inventario.frmGestionProductos.resources
+C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Productos_e_Inventario.frmProductos.resources
+C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Productos_e_Inventario.frmCategorias.resources
+C:\REPOSITORIO SGC MINIMARKET\SGC-MINIMARKET\SGC MINIMARKET\SGC MINIMARKET\obj\Debug\SGC_MINIMARKET.Productos_e_Inventario.frmGestionCategorias.resources

@@ -11,6 +11,7 @@ namespace DATOS
         public csConexionBD()
         {
             cadenaConexion = @"Password=123;Persist Security Info=False;User ID=sa;Initial Catalog=GC_MINIMARKET;Data Source=DESKTOP-QJOCHDP";
+            //cadenaConexion = @"Server=.;Database=GC_MINIMARKET;Trusted_Connection=Yes;"; // Guizado
         }
 
         public SqlConnection CrearConexion()

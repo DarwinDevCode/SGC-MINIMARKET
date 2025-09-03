@@ -32,7 +32,7 @@
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtProductos = new System.Windows.Forms.TextBox();
+            this.txtCantidad = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtPrecioUnitario = new System.Windows.Forms.TextBox();
             this.cbxProductos = new System.Windows.Forms.ComboBox();
@@ -47,7 +47,7 @@
             this.panel1.Controls.Add(this.btnAgregar);
             this.panel1.Controls.Add(this.btnCancelar);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.txtProductos);
+            this.panel1.Controls.Add(this.txtCantidad);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.txtPrecioUnitario);
             this.panel1.Controls.Add(this.cbxProductos);
@@ -72,6 +72,7 @@
             this.btnAgregar.TabIndex = 35;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnCancelar
             // 
@@ -99,16 +100,16 @@
             this.label5.TabIndex = 34;
             this.label5.Text = "Cantidad:";
             // 
-            // txtProductos
+            // txtCantidad
             // 
-            this.txtProductos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
-            this.txtProductos.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtProductos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProductos.Location = new System.Drawing.Point(29, 169);
-            this.txtProductos.Multiline = true;
-            this.txtProductos.Name = "txtProductos";
-            this.txtProductos.Size = new System.Drawing.Size(280, 30);
-            this.txtProductos.TabIndex = 33;
+            this.txtCantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(253)))));
+            this.txtCantidad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCantidad.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCantidad.Location = new System.Drawing.Point(29, 169);
+            this.txtCantidad.Multiline = true;
+            this.txtCantidad.Name = "txtCantidad";
+            this.txtCantidad.Size = new System.Drawing.Size(280, 30);
+            this.txtCantidad.TabIndex = 33;
             // 
             // label4
             // 
@@ -143,6 +144,7 @@
             this.cbxProductos.Name = "cbxProductos";
             this.cbxProductos.Size = new System.Drawing.Size(280, 29);
             this.cbxProductos.TabIndex = 30;
+            this.cbxProductos.SelectionChangeCommitted += new System.EventHandler(this.cbxProductos_SelectionChangeCommitted);
             // 
             // label1
             // 
@@ -178,6 +180,7 @@
             this.Name = "frmGestionDetalleCompra";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmGestionDetalleCompra";
+            this.Load += new System.EventHandler(this.frmGestionDetalleCompra_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -190,7 +193,7 @@
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtProductos;
+        private System.Windows.Forms.TextBox txtCantidad;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtPrecioUnitario;
         private System.Windows.Forms.ComboBox cbxProductos;
