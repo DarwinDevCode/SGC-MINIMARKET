@@ -17,7 +17,7 @@ namespace SGC_MINIMARKET.Proveedores_y_Compras
         csUsosGenerales clase_usos_generales = new csUsosGenerales();
         csComprasProveedoresN clase_compras_proveedores = new csComprasProveedoresN();
         static private frmGestionCompras instancia = null;
-        int idCompra; bool resultado1, resultado2 = false;
+        int idCompra; bool resultado1, resultado2, resultado3 = false;
 
         public static frmGestionCompras Formulario()
         {
@@ -61,10 +61,17 @@ namespace SGC_MINIMARKET.Proveedores_y_Compras
                 if (resultado1)
                 {
                     foreach (var item in frm.productos)
+                    {
                         resultado2 = clase_compras_proveedores.InsertarDetalleCompra(idCompra, item.id, item.cantidad, item.precio_unitario);
+                        resultado3 = clase_compras_proveedores.ActualizarStockProducto(item.id, item.cantidad, "COMPRA");
+                    }
+
+
+
                     if (resultado2)
                     {
                         MessageBox.Show("Compra realizada correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        frm.productos.Clear();
                         LimpiarControles();
                         frm1.AjustarDgv();
                     }
@@ -77,7 +84,7 @@ namespace SGC_MINIMARKET.Proveedores_y_Compras
         {
             cbxProveedor.SelectedIndex = -1;
             rtbProductos.Text = string.Empty;
-            txtFecha.Text = string.Empty;
+            txtFecha.Text = DateTime.Now.ToString();
             txtTotal.Text = string.Empty;
         }
     }

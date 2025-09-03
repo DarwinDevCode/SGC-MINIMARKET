@@ -41,5 +41,10 @@ namespace NEGOCIACION.Proveedores_y_Compras
         {
             return clase_compras_proveedores.InsertarDetalleCompra(idCompra, idProducto, cantidad, precioUnitario);
         }
+
+        public bool ActualizarStockProducto(int idProducto, int cantidad, string operacion)
+        {
+            return clase_compras_proveedores.ActualizarStockProducto(idProducto, cantidad, operacion);
+        }
     }
 }

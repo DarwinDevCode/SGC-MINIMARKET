@@ -38,23 +38,30 @@ namespace SGC_MINIMARKET.Seguridad_y_Usuarios
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             if (bandera)
+            {
                 if (txtRol.Text != string.Empty)
                 {
                     bool resultado = clase_gestion_roles.ActualizarRol(ID, txtRol.Text);
-                    if (resultado) 
+                    if (resultado)
+                    {
                         MessageBox.Show("Rol actualizado correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    
-                    frm.AjustarDgv(); LimpiarControles();
+                        frm.AjustarDgv(); LimpiarControles();
+                    }
+                    this.Close();
                 }
+            }
             else
+            {
                 if (txtRol.Text != string.Empty)
                 {
                     bool resultado = clase_gestion_roles.InsertarRol(txtRol.Text);
                     if (resultado)
+                    {
                         MessageBox.Show("Rol agregado correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                    frm.AjustarDgv(); LimpiarControles();
+                        frm.AjustarDgv(); LimpiarControles();
+                    }
                 }
+            }
 
         }
 

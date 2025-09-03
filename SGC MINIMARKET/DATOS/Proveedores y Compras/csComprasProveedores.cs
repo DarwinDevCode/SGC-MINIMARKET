@@ -250,6 +250,44 @@ namespace DATOS.Proveedores_y_Compras
             return resultado;
         }
 
+        public bool ActualizarStockProducto(int idProducto, int cantidad, string operacion)
+        {
+            csConexionBD conexionBD = new csConexionBD();
+            bool resultado = false;
+
+            using (SqlConnection conexion = conexionBD.CrearConexion())
+            {
+                try
+                {
+                    conexion.Open();
+
+                    using (SqlCommand comando = new SqlCommand("SP_ACTUALIZAR_STOCK_PRODUCTO", conexion))
+                    {
+                        comando.CommandType = CommandType.StoredProcedure;
+
+                        comando.Parameters.AddWithValue("@ID_PRODUCTO", idProducto);
+                        comando.Parameters.AddWithValue("@CANTIDAD", cantidad);
+                        comando.Parameters.AddWithValue("@OPERACION", operacion); // "COMPRA" o "VENTA"
+
+                        SqlParameter resultadoParam = new SqlParameter("@Resultado", SqlDbType.Bit)
+                        {
+                            Direction = ParameterDirection.Output
+                        };
+
+                        comando.Parameters.Add(resultadoParam);
+
+                        comando.ExecuteNonQuery();
+
+                        resultado = Convert.ToBoolean(resultadoParam.Value);
+                    }
+                }
+                catch (SqlException ex)
+                {
+                    throw new Exception("Error al actualizar el stock del producto: " + ex.Message, ex);
+                }
+            }
+            return resultado;
+        }
 
     }
 }
