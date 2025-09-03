@@ -77,11 +77,23 @@
     <Compile Include="Parametros y Configuracion\frmParametros.Designer.cs">
       <DependentUpon>frmParametros.cs</DependentUpon>
     </Compile>
+    <Compile Include="Productos e Inventario\frmCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos e Inventario\frmCategorias.Designer.cs">
+      <DependentUpon>frmCategorias.cs</DependentUpon>
+    </Compile>
     <Compile Include="Productos e Inventario\frmExample3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Productos e Inventario\frmExample3.Designer.cs">
       <DependentUpon>frmExample3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos e Inventario\frmGestionCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos e Inventario\frmGestionCategorias.Designer.cs">
+      <DependentUpon>frmGestionCategorias.cs</DependentUpon>
     </Compile>
     <Compile Include="Productos e Inventario\frmGestionProductos.cs">
       <SubType>Form</SubType>
@@ -147,6 +159,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Parametros y Configuracion\frmParametros.resx">
       <DependentUpon>frmParametros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos e Inventario\frmCategorias.resx">
+      <DependentUpon>frmCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos e Inventario\frmGestionCategorias.resx">
+      <DependentUpon>frmGestionCategorias.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Productos e Inventario\frmGestionProductos.resx">
       <DependentUpon>frmGestionProductos.cs</DependentUpon>

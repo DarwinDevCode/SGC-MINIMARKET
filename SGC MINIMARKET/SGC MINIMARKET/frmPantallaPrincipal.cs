@@ -172,7 +172,8 @@ namespace SGC_MINIMARKET.Parametros_y_Configuracion
 
         private void btnCategorias_Click(object sender, EventArgs e)
         {
-
+            frmCategorias frm = frmCategorias.Formulario();
+            LlamarFormulario(frm);
         }
 
         private void btnClientes_Click(object sender, EventArgs e)
