@@ -83,6 +83,18 @@
     <Compile Include="Productos e Inventario\frmExample3.Designer.cs">
       <DependentUpon>frmExample3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Productos e Inventario\frmGestionProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos e Inventario\frmGestionProductos.Designer.cs">
+      <DependentUpon>frmGestionProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos e Inventario\frmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos e Inventario\frmProductos.Designer.cs">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proveedores y Compras\frmCompras.cs">
@@ -135,6 +147,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Parametros y Configuracion\frmParametros.resx">
       <DependentUpon>frmParametros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos e Inventario\frmGestionProductos.resx">
+      <DependentUpon>frmGestionProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos e Inventario\frmProductos.resx">
+      <DependentUpon>frmProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

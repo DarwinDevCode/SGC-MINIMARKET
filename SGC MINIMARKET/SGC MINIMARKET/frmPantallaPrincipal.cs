@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using SGC_MINIMARKET.Proveedores_y_Compras;
 using SGC_MINIMARKET.Seguridad_y_Usuarios;
 using SGC_MINIMARKET.Parametros_y_Configuracion;
+using SGC_MINIMARKET.Productos_e_Inventario;
 
 using static System.Net.WebRequestMethods;
 
@@ -165,7 +166,8 @@ namespace SGC_MINIMARKET.Parametros_y_Configuracion
 
         private void btnProductos_Click(object sender, EventArgs e)
         {
-
+            frmProductos frm = frmProductos.Formulario(); 
+            LlamarFormulario(frm);
         }
 
         private void btnCategorias_Click(object sender, EventArgs e)
