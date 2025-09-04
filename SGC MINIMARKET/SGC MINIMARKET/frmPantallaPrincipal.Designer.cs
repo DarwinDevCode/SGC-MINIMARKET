@@ -91,7 +91,7 @@
             // 
             // pnlCabecera
             // 
-            this.pnlCabecera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(150)))), ((int)(((byte)(179)))));
+            this.pnlCabecera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(109)))), ((int)(((byte)(145)))));
             this.pnlCabecera.Controls.Add(this.label1);
             this.pnlCabecera.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlCabecera.Location = new System.Drawing.Point(0, 0);
@@ -191,7 +191,7 @@
             // 
             // flpMenuLateral
             // 
-            this.flpMenuLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(112)))), ((int)(((byte)(151)))));
+            this.flpMenuLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(109)))), ((int)(((byte)(145)))));
             this.flpMenuLateral.Controls.Add(this.btnDashboard);
             this.flpMenuLateral.Controls.Add(this.flpTransacciones);
             this.flpMenuLateral.Controls.Add(this.flpInventario);

@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace SGC_MINIMARKET.Parametros_y_Configuracion
+{
+    public partial class frmGestionParametros : Form
+    {
+        static private frmGestionParametros instancia = null;
+        public static frmGestionParametros Formulario()
+        {
+            if (instancia == null) { instancia = new frmGestionParametros(); }
+            return instancia;
+        }
+
+        public frmGestionParametros()
+        {
+            InitializeComponent();
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
+}

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clientes y Ventas\frmExample1.cs">
+    <Compile Include="Clientes y Ventas\Clientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Clientes y Ventas\frmExample1.Designer.cs">
-      <DependentUpon>frmExample1.cs</DependentUpon>
+    <Compile Include="Clientes y Ventas\Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes y Ventas\frmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes y Ventas\frmVentas.Designer.cs">
+      <DependentUpon>frmVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes y Ventas\Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes y Ventas\Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
     </Compile>
     <Compile Include="csUsosGenerales.cs" />
     <Compile Include="frmPantallaPrincipal.cs">
@@ -65,11 +77,47 @@
     <Compile Include="Parametros y Configuracion\frmExample2.Designer.cs">
       <DependentUpon>frmExample2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Parametros y Configuracion\frmGestionParametros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros y Configuracion\frmGestionParametros.Designer.cs">
+      <DependentUpon>frmGestionParametros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros y Configuracion\frmParametros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros y Configuracion\frmParametros.Designer.cs">
+      <DependentUpon>frmParametros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos e Inventario\frmCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos e Inventario\frmCategorias.Designer.cs">
+      <DependentUpon>frmCategorias.cs</DependentUpon>
+    </Compile>
     <Compile Include="Productos e Inventario\frmExample3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Productos e Inventario\frmExample3.Designer.cs">
       <DependentUpon>frmExample3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos e Inventario\frmGestionCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos e Inventario\frmGestionCategorias.Designer.cs">
+      <DependentUpon>frmGestionCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos e Inventario\frmGestionProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos e Inventario\frmGestionProductos.Designer.cs">
+      <DependentUpon>frmGestionProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos e Inventario\frmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos e Inventario\frmProductos.Designer.cs">
+      <DependentUpon>frmProductos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -115,8 +163,35 @@
     <Compile Include="Seguridad y Usuarios\frmRoles.Designer.cs">
       <DependentUpon>frmRoles.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Clientes y Ventas\Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes y Ventas\frmVentas.resx">
+      <DependentUpon>frmVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes y Ventas\Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPantallaPrincipal.resx">
       <DependentUpon>frmPantallaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros y Configuracion\frmGestionParametros.resx">
+      <DependentUpon>frmGestionParametros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros y Configuracion\frmParametros.resx">
+      <DependentUpon>frmParametros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos e Inventario\frmCategorias.resx">
+      <DependentUpon>frmCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos e Inventario\frmGestionCategorias.resx">
+      <DependentUpon>frmGestionCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos e Inventario\frmGestionProductos.resx">
+      <DependentUpon>frmGestionProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos e Inventario\frmProductos.resx">
+      <DependentUpon>frmProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
