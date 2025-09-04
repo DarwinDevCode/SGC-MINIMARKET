@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clientes y Ventas\frmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes y Ventas\frmClientes.Designer.cs">
+      <DependentUpon>frmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes y Ventas\frmGestionClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes y Ventas\frmGestionClientes.Designer.cs">
+      <DependentUpon>frmGestionClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Clientes y Ventas\frmVentas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +145,18 @@
     <Compile Include="Proveedores y Compras\frmGestionDetalleCompra.Designer.cs">
       <DependentUpon>frmGestionDetalleCompra.cs</DependentUpon>
     </Compile>
+    <Compile Include="Proveedores y Compras\frmGestionProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores y Compras\frmGestionProveedores.Designer.cs">
+      <DependentUpon>frmGestionProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedores y Compras\frmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores y Compras\frmProveedores.Designer.cs">
+      <DependentUpon>frmProveedores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reportes y Auditoria\frmExample5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +181,12 @@
     <Compile Include="Seguridad y Usuarios\frmRoles.Designer.cs">
       <DependentUpon>frmRoles.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Clientes y Ventas\frmClientes.resx">
+      <DependentUpon>frmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes y Ventas\frmGestionClientes.resx">
+      <DependentUpon>frmGestionClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Clientes y Ventas\frmVentas.resx">
       <DependentUpon>frmVentas.cs</DependentUpon>
     </EmbeddedResource>
@@ -202,6 +232,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Proveedores y Compras\frmGestionDetalleCompra.resx">
       <DependentUpon>frmGestionDetalleCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedores y Compras\frmGestionProveedores.resx">
+      <DependentUpon>frmGestionProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedores y Compras\frmProveedores.resx">
+      <DependentUpon>frmProveedores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Seguridad y Usuarios\frmGestionRoles.resx">
       <DependentUpon>frmGestionRoles.cs</DependentUpon>

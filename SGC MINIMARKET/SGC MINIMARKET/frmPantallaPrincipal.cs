@@ -180,12 +180,14 @@ namespace SGC_MINIMARKET.Parametros_y_Configuracion
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
-
+            frmClientes frm = frmClientes.Formulario();
+            LlamarFormulario(frm);
         }
 
         private void btnProveedores_Click(object sender, EventArgs e)
         {
-
+            frmProveedores frm = frmProveedores.Formulario();
+            LlamarFormulario(frm);
         }
 
         private void btnUsuarios_Click(object sender, EventArgs e)
